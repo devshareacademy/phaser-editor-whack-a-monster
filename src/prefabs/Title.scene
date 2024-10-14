@@ -1,0 +1,34 @@
+{
+    "id": "a740e6c2-df89-4f7e-aac9-f0a2b04ec443",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "340e4d60-a330-4498-b324-b15375ef4729",
+            "label": "text_1",
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Whack\nA\nMonster",
+            "align": "center",
+            "fontFamily": "Nosifer",
+            "fontSize": "128px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

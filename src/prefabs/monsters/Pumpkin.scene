@@ -1,0 +1,38 @@
+{
+    "id": "3840a30d-f808-4285-a4cf-be62d6de61d6",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "prefabId": "f7ad8519-99dc-464c-b8c4-bcdcd49c75f9",
+            "id": "6da49e99-a1c8-4cd1-b023-6a44826a4238",
+            "unlock": [
+                "points",
+                "duration",
+                "texture",
+                "animationKey"
+            ],
+            "label": "monsterBase",
+            "points": 30,
+            "duration": 1600,
+            "texture": "{\"key\":\"spritesheet\",\"frame\":\"Jack o latern1.png\"}",
+            "animationKey": "jack"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

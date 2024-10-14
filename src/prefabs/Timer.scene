@@ -1,0 +1,53 @@
+{
+    "id": "0b9f5e42-7e4a-4010-9f45-96be4e702124",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "9b416652-a780-443f-97cb-65fbcdcf93b4",
+            "label": "text",
+            "text": "30",
+            "fontFamily": "Creepster",
+            "fontSize": "64px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "seconds",
+            "label": "Seconds",
+            "tooltip": "The number of seconds this timer will run for.",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "isFinished",
+            "label": "Is Finished",
+            "tooltip": "Indicates if the timer has reached 0.",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

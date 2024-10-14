@@ -1,0 +1,66 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "assets/background_music.wav"
+                ],
+                "type": "audio",
+                "key": "background_music"
+            },
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/hourglass.png",
+                "type": "image",
+                "key": "hourglass"
+            },
+            {
+                "url": [
+                    "assets/impactSoft_heavy_000.ogg"
+                ],
+                "type": "audio",
+                "key": "impactSoft_heavy_000"
+            },
+            {
+                "url": "assets/smoke_fx.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "smoke_fx"
+            },
+            {
+                "atlasURL": "assets/halloween_characters/spritesheet.json",
+                "textureURL": "assets/halloween_characters/spritesheet.png",
+                "type": "atlas",
+                "key": "spritesheet"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

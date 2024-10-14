@@ -1,0 +1,70 @@
+{
+    "id": "f7ad8519-99dc-464c-b8c4-bcdcd49c75f9",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ScriptNode",
+            "id": "9ea45b65-702d-4a18-8732-774652fd30fc",
+            "label": "container_1"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "points",
+            "label": "Points",
+            "tooltip": "The number of points this monster is worth.",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "duration",
+            "label": "Duration",
+            "tooltip": "The number of milliseconds this monster will stay spawned for.",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "texture",
+            "label": "Texture",
+            "tooltip": "The image texture to use for this monster.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "texture-config"
+            }
+        },
+        {
+            "name": "animationKey",
+            "label": "Animation Key",
+            "tooltip": "The key of the animation to play for this sprite.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "animation-key"
+            }
+        }
+    ]
+}

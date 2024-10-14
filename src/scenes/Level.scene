@@ -1,0 +1,213 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 96,
+        "snapHeight": 96,
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c1a475c1-188b-4590-9f6a-389aaad78641",
+            "label": "background",
+            "texture": {
+                "key": "background"
+            },
+            "originX": 0,
+            "originY": 0,
+            "list": [
+                {
+                    "prefabId": "87adfd66-2fb0-478e-b6f8-bf77e81b8fd9",
+                    "id": "789e77f2-324c-4269-b2b0-cc52c2de0ade",
+                    "unlock": [
+                        "key",
+                        "loop"
+                    ],
+                    "label": "audioPrefab",
+                    "displayName": "Background Music",
+                    "key": "background_music",
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "prefabId": "3b3758e9-77c0-40fc-a901-92b869e6d5eb",
+            "id": "25a12cee-0122-4420-a26b-f18d98bba5d1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bottomSpawnLayer",
+            "x": 0,
+            "y": 700
+        },
+        {
+            "prefabId": "3b3758e9-77c0-40fc-a901-92b869e6d5eb",
+            "id": "9ea82609-4147-4eeb-972a-0727e578d734",
+            "unlock": [
+                "layerY",
+                "x",
+                "y"
+            ],
+            "label": "topSpawnLayer",
+            "x": 0,
+            "y": 430
+        },
+        {
+            "prefabId": "0b9f5e42-7e4a-4010-9f45-96be4e702124",
+            "id": "24ee6073-1e73-40bc-a16a-197fe8624c8d",
+            "unlock": [
+                "x",
+                "y",
+                "seconds",
+                "visible"
+            ],
+            "label": "timer",
+            "seconds": 30,
+            "x": 1168,
+            "y": 10,
+            "visible": false
+        },
+        {
+            "prefabId": "23fef5a0-b54f-49b4-b302-cff9efbfee33",
+            "id": "a2203143-b5a2-4658-b8d8-18338fc94d36",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "score",
+            "x": 10,
+            "y": 10,
+            "visible": false
+        },
+        {
+            "prefabId": "f6e373dd-b60a-44f6-8ebd-b0de2ee5f0dc",
+            "id": "30df6987-4070-4ba4-a0b0-31b97d97a8c7",
+            "unlock": [
+                "x",
+                "y",
+                "visible"
+            ],
+            "label": "gameOver",
+            "x": 640,
+            "y": 360,
+            "visible": false
+        },
+        {
+            "prefabId": "a740e6c2-df89-4f7e-aac9-f0a2b04ec443",
+            "id": "26823ae3-042c-4aed-967c-a304cf25d34d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "title",
+            "x": 640,
+            "y": 360
+        },
+        {
+            "type": "Image",
+            "id": "7b8a17fa-ade1-498e-bebb-8f2e0e855294",
+            "label": "hourglass",
+            "texture": {
+                "key": "hourglass"
+            },
+            "x": 1215,
+            "y": 10,
+            "originX": 0,
+            "originY": 0,
+            "visible": false
+        },
+        {
+            "prefabId": "8a9e410d-ed70-4455-938d-1783a272320c",
+            "id": "fb59cd5a-b8ff-490a-a578-cad38b62093f",
+            "label": "wolf"
+        },
+        {
+            "prefabId": "87aebb63-04ef-4b8a-a03e-c1408243a94d",
+            "id": "9269ad21-d893-417f-9421-4a8733428f93",
+            "label": "ghost"
+        },
+        {
+            "prefabId": "7fa1b454-9c91-4fc6-a92b-24a3bae24a5e",
+            "id": "18b4aa2e-23b1-4650-a4d2-8da06acdc6ee",
+            "unlock": [
+                "spawnLayers",
+                "monsters",
+                "timer",
+                "score",
+                "gmaeOver",
+                "gameOverObj",
+                "titleObject",
+                "timerIcon"
+            ],
+            "label": "gameplay",
+            "scope": "CLASS",
+            "spawnLayers": "spawnLayers",
+            "monsters": "monsters",
+            "timer": "timer",
+            "score": "score",
+            "gameOverObj": "gameOver",
+            "titleObject": "title",
+            "timerIcon": "hourglass"
+        },
+        {
+            "prefabId": "3840a30d-f808-4285-a4cf-be62d6de61d6",
+            "id": "1b98d6dc-d953-49be-8ff8-21fa265153e8",
+            "label": "pumpkin"
+        },
+        {
+            "prefabId": "cdc1b452-1ceb-4689-80eb-1c8331f30def",
+            "id": "336630d9-7329-4331-824f-34709c9bcfd1",
+            "label": "bat"
+        },
+        {
+            "prefabId": "38970629-35ec-46a8-a433-9523655811e3",
+            "id": "7bc04e22-0bed-4e3c-ab91-59b7bd3b1bb0",
+            "label": "vampire"
+        },
+        {
+            "prefabId": "424a8a9b-a1fb-4f43-bffb-43dd01c8f39c",
+            "id": "cd27db6c-3d69-495a-8e99-c97ed1d47697",
+            "label": "witch"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "a5f4ba99-dedd-4280-af8f-677856dc1fd3",
+            "label": "monsters",
+            "objectIds": [
+                "9269ad21-d893-417f-9421-4a8733428f93",
+                "1b98d6dc-d953-49be-8ff8-21fa265153e8",
+                "fb59cd5a-b8ff-490a-a578-cad38b62093f",
+                "cd27db6c-3d69-495a-8e99-c97ed1d47697",
+                "7bc04e22-0bed-4e3c-ab91-59b7bd3b1bb0",
+                "336630d9-7329-4331-824f-34709c9bcfd1"
+            ]
+        },
+        {
+            "id": "a20c16fe-701b-4f50-bafa-33964bdacee4",
+            "label": "spawnLayers",
+            "objectIds": [
+                "9ea82609-4147-4eeb-972a-0727e578d734",
+                "25a12cee-0122-4420-a26b-f18d98bba5d1"
+            ]
+        }
+    ]
+}

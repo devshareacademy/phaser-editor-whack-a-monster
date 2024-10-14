@@ -1,0 +1,294 @@
+{
+    "anims": [
+        {
+            "key": "bat",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spritesheet",
+                    "frame": "Bat1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Bat2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Bat3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Bat4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "ghost",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spritesheet",
+                    "frame": "Ghost1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Ghost2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Ghost3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Ghost4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "jack",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spritesheet",
+                    "frame": "Jack o latern1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Jack o latern2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Jack o latern3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Jack o latern4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "vampire",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spritesheet",
+                    "frame": "Vampire1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Vampire2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Vampire3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Vampire4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "werewolf",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spritesheet",
+                    "frame": "Werewolf1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Werewolf2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Werewolf3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Werewolf4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "witch",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "spritesheet",
+                    "frame": "Witch1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Witch2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Witch3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "spritesheet",
+                    "frame": "Witch4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "smokesmoke_fx",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "smoke_fx",
+                    "frame": 77,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 78,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 79,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 80,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 81,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 82,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 83,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 84,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 85,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 86,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke_fx",
+                    "frame": 87,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "randomFrame": false,
+            "hideOnComplete": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

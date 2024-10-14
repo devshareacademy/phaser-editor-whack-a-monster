@@ -1,0 +1,127 @@
+{
+    "id": "7fa1b454-9c91-4fc6-a92b-24a3bae24a5e",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ScriptNode",
+            "id": "d63e0727-9249-443b-8305-b802b35dd208",
+            "label": "scriptnode_1"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "spawnLayers",
+            "label": "Spawn Layers",
+            "tooltip": "The spawn layers used for spawning monsters.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "SpawnLayer[]"
+            }
+        },
+        {
+            "name": "monsters",
+            "label": "Monsters",
+            "tooltip": "A list of monsters that can be spawned.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "BaseMonster[]"
+            }
+        },
+        {
+            "name": "timer",
+            "label": "Timer",
+            "tooltip": "Round timer game object.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Timer"
+            }
+        },
+        {
+            "name": "isGameOver",
+            "label": "Is Game Over",
+            "tooltip": "Indicates if the game is over.",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "monsterDefeatedEvent",
+            "label": "Monster Defeated Event",
+            "tooltip": "The event that is emitted when a monster is defeated.",
+            "defValue": "CustomerMonsterDefeated",
+            "customDefinition": false,
+            "type": {
+                "id": "event"
+            }
+        },
+        {
+            "name": "score",
+            "label": "Score",
+            "tooltip": "Score object for the game.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Score"
+            }
+        },
+        {
+            "name": "gameOverObj",
+            "label": "Game Over Object",
+            "tooltip": "Game over game object.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "GameOver"
+            }
+        },
+        {
+            "name": "titleObject",
+            "label": "Title Object",
+            "tooltip": "The title object in the scene.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Title"
+            }
+        },
+        {
+            "name": "timerIcon",
+            "label": "Timer Icon",
+            "tooltip": "Timer icon that will be visible during gameplay",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.Image"
+            }
+        }
+    ]
+}

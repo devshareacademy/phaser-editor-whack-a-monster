@@ -1,0 +1,8 @@
+{
+    "plugins": [
+        "phasereditor2d-plugins"
+    ],
+    "skip": [
+        "phasereditor2d-plugins"
+    ]
+}

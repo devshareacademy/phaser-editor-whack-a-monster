@@ -1,0 +1,38 @@
+{
+    "id": "8a9e410d-ed70-4455-938d-1783a272320c",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "prefabId": "f7ad8519-99dc-464c-b8c4-bcdcd49c75f9",
+            "id": "15ed314b-3d99-452d-a485-da0d128d212b",
+            "unlock": [
+                "points",
+                "duration",
+                "texture",
+                "animationKey"
+            ],
+            "label": "monsterBase",
+            "points": 30,
+            "duration": 1900,
+            "texture": "{\"key\":\"spritesheet\",\"frame\":\"Werewolf1.png\"}",
+            "animationKey": "werewolf"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
