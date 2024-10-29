@@ -1,0 +1,38 @@
+{
+    "id": "8e50599d-10a0-45d0-9823-52b6da928513",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "prefabId": "a747edf5-122c-40de-98d5-a770e107cfe0",
+            "id": "01062d49-b1bd-4811-a3d4-1306cd64eee7",
+            "unlock": [
+                "points",
+                "duration",
+                "textureConfig",
+                "animationKey"
+            ],
+            "label": "baseMonsterPrefab",
+            "points": 25,
+            "duration": 2100,
+            "textureConfig": "{\"key\":\"spritesheet\",\"frame\":\"Vampire1.png\"}",
+            "animationKey": "idleVampire"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

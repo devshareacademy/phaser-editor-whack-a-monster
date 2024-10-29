@@ -15,3 +15,9 @@ This project includes the script libraries:
 
 - [@phaserjs/editor-scripts-core](https://github.com/phaserjs/editor-scripts-core)
 - [@phaserjs/editor-simple-animations](https://github.com/phaserjs/editor-scripts-simple-animations#duration-config)
+
+https://www.kenney.nl/assets/impact-sounds
+https://oscarleites.itch.io/free-halloween-music-pack
+https://free-game-assets.itch.io/parallax-halloween-2d-game-backgrounds
+https://ismartal.itch.io/2d-animated-halloween-characters
+https://bdragon1727.itch.io/free-smoke-fx-pixel-2

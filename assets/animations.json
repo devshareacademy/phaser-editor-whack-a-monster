@@ -1,7 +1,7 @@
 {
     "anims": [
         {
-            "key": "bat",
+            "key": "idleBat",
             "type": "frame",
             "frames": [
                 {
@@ -35,7 +35,7 @@
             "randomFrame": false
         },
         {
-            "key": "ghost",
+            "key": "idleGhost",
             "type": "frame",
             "frames": [
                 {
@@ -69,7 +69,7 @@
             "randomFrame": false
         },
         {
-            "key": "jack",
+            "key": "idleJack",
             "type": "frame",
             "frames": [
                 {
@@ -103,7 +103,7 @@
             "randomFrame": false
         },
         {
-            "key": "vampire",
+            "key": "idleVampire",
             "type": "frame",
             "frames": [
                 {
@@ -137,7 +137,7 @@
             "randomFrame": false
         },
         {
-            "key": "werewolf",
+            "key": "idleWerewolf",
             "type": "frame",
             "frames": [
                 {
@@ -171,7 +171,7 @@
             "randomFrame": false
         },
         {
-            "key": "witch",
+            "key": "idleWitch",
             "type": "frame",
             "frames": [
                 {
@@ -205,7 +205,7 @@
             "randomFrame": false
         },
         {
-            "key": "smokesmoke_fx",
+            "key": "smoke",
             "type": "frame",
             "frames": [
                 {

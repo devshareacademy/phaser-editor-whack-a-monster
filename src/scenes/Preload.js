@@ -65,10 +65,10 @@ export default class Preload extends Phaser.Scene {
 
 		this.editorPreload();
 
+		const width =  this.progressBar.width;
+
 		this.load.webfont("Nosifer");
 		this.load.webfont("Creepster");
-
-		const width =  this.progressBar.width;
 
 		this.load.on("progress", (progress) => {
 
@@ -80,7 +80,6 @@ export default class Preload extends Phaser.Scene {
 
 		this.scene.start("Level");
 	}
-
 	/* END-USER-CODE */
 }
 

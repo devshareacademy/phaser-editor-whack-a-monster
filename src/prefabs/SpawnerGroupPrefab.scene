@@ -1,0 +1,90 @@
+{
+    "id": "92d49d7d-ba42-4b84-937a-39d213144ba6",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "fd2a2d47-2dac-4847-8ff3-dbf33dc69a60",
+            "label": "container_1",
+            "list": [
+                {
+                    "prefabId": "45ead080-86b8-4424-b176-34bdd44c8ec4",
+                    "id": "e00543e2-c18c-4831-a2f4-80d8393c0b1b",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spawner1",
+                    "displayName": "Spawner 1",
+                    "x": 220,
+                    "y": 0
+                },
+                {
+                    "prefabId": "45ead080-86b8-4424-b176-34bdd44c8ec4",
+                    "id": "0ee67319-6c24-4929-af44-701c255b1016",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spawner2",
+                    "displayName": "Spawner 2",
+                    "x": 500,
+                    "y": 0
+                },
+                {
+                    "prefabId": "45ead080-86b8-4424-b176-34bdd44c8ec4",
+                    "id": "eacbf34a-4ca5-4e08-8d0f-46a12ea7449d",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spawner3",
+                    "displayName": "Spawner 3",
+                    "x": 770,
+                    "y": 0
+                },
+                {
+                    "prefabId": "45ead080-86b8-4424-b176-34bdd44c8ec4",
+                    "id": "4ab71a79-0ee8-4e9f-ae8d-b51c021e123e",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "spawner4",
+                    "displayName": "Spawner 4",
+                    "x": 1040,
+                    "y": 0
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "5edee3b7-754f-4e29-bd89-06405828730e",
+            "label": "spawners",
+            "objectIds": [
+                "e00543e2-c18c-4831-a2f4-80d8393c0b1b",
+                "4ab71a79-0ee8-4e9f-ae8d-b51c021e123e",
+                "eacbf34a-4ca5-4e08-8d0f-46a12ea7449d",
+                "0ee67319-6c24-4929-af44-701c255b1016"
+            ]
+        }
+    ]
+}
