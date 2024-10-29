@@ -18,19 +18,19 @@ export default class AudioPrefab extends ScriptNode {
 	}
 
 	/** @type {string} */
-	key = "";
+	audioKey = "";
 	/** @type {boolean} */
 	loop = false;
 
 	/* START-USER-CODE */
 
 	// Write your code here.
-	start() {
-		if (this.key === '') {
+	execute() {
+		if (this.audioKey === '') {
 			return;
 		}
-		this.scene.sound.play(this.key, {
-			loop: this.loop
+		this.scene.sound.play(this.audioKey, {
+			loop: this.loop,
 		});
 	}
 

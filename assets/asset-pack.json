@@ -2,21 +2,21 @@
     "section1": {
         "files": [
             {
-                "url": [
-                    "assets/background_music.wav"
-                ],
-                "type": "audio",
-                "key": "background_music"
-            },
-            {
                 "url": "assets/animations.json",
                 "type": "animation",
                 "key": "animations"
             },
             {
-                "url": "assets/background.png",
+                "url": "assets/images/background.png",
                 "type": "image",
                 "key": "background"
+            },
+            {
+                "url": [
+                    "assets/audio/background_music.wav"
+                ],
+                "type": "audio",
+                "key": "background_music"
             },
             {
                 "url": "assets/dino.png",
@@ -24,19 +24,19 @@
                 "type": "image"
             },
             {
-                "url": "assets/hourglass.png",
+                "url": "assets/images/hourglass.png",
                 "type": "image",
                 "key": "hourglass"
             },
             {
                 "url": [
-                    "assets/impactSoft_heavy_000.ogg"
+                    "assets/audio/impactSoft_heavy_000.ogg"
                 ],
                 "type": "audio",
                 "key": "impactSoft_heavy_000"
             },
             {
-                "url": "assets/smoke_fx.png",
+                "url": "assets/images/smoke_fx.png",
                 "frameConfig": {
                     "frameWidth": 64,
                     "frameHeight": 64,
@@ -49,8 +49,8 @@
                 "key": "smoke_fx"
             },
             {
-                "atlasURL": "assets/halloween_characters/spritesheet.json",
-                "textureURL": "assets/halloween_characters/spritesheet.png",
+                "atlasURL": "assets/images/spritesheet.json",
+                "textureURL": "assets/images/spritesheet.png",
                 "type": "atlas",
                 "key": "spritesheet"
             }

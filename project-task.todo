@@ -1,0 +1,33 @@
+Project Setup:
+  ✔ create new phaser editor project @done(24-10-25 08:13)
+  ✔ run game locally @done(24-10-25 08:13)
+  ✔ load game assets @done(24-10-25 08:13)
+  ✔ create animations @done(24-10-25 08:13)
+
+Level Setup:
+  ✔ add game background @done(24-10-25 08:56)
+  ✔ add score component @done(24-10-25 08:56)
+  ✔ add timer component @done(24-10-25 08:56)
+  ✔ add title text @done(24-10-25 08:56)
+  ✔ add game over text @done(24-10-25 08:56)
+
+Monsters:
+  ✔ create base monster prefab @done(24-10-25 13:28)
+  ✔ create monster variations @done(24-10-25 13:28)
+  ✔ create spawner component @done(24-10-25 13:28)
+  ✔ add show/hide functionality @done(24-10-25 13:28)
+  ✔ create spawner group @done(24-10-25 13:54)
+  ✔ add game object masks @done(24-10-25 13:54)
+
+Game Logic:
+  ✔ create game play script @done(24-10-26 00:28)
+  ✔ add start game logic @done(24-10-26 00:28)
+  ✔ add end game logic @done(24-10-26 00:29)
+  ✔ add game timer functionality @done(24-10-26 00:29)
+  ✔ add score functionality @done(24-10-26 00:29)
+  ✔ spawn monsters @done(24-10-26 00:29)
+  ✔ destroy monsters @done(24-10-26 00:29)
+
+Extra:
+  ✔ custom fonts @done(24-10-28 11:24)
+  ✔ background audio @done(24-10-28 11:24)

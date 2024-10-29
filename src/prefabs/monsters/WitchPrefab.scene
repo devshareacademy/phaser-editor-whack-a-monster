@@ -1,0 +1,38 @@
+{
+    "id": "18fe7ae6-14dc-4be5-940a-03a9eef4825a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "prefabId": "a747edf5-122c-40de-98d5-a770e107cfe0",
+            "id": "d04a1878-ea20-4596-8ec2-4b0662efabb8",
+            "unlock": [
+                "points",
+                "duration",
+                "textureConfig",
+                "animationKey"
+            ],
+            "label": "baseMonsterPrefab",
+            "points": 10,
+            "duration": 2500,
+            "textureConfig": "{\"key\":\"spritesheet\",\"frame\":\"Witch1.png\"}",
+            "animationKey": "idleWitch"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

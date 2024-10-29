@@ -1,5 +1,5 @@
 {
-    "id": "87adfd66-2fb0-478e-b6f8-bf77e81b8fd9",
+    "id": "d4948cc2-aae8-45f7-a122-b0cc9505c57b",
     "sceneType": "PREFAB",
     "settings": {
         "exportClass": true,
@@ -14,7 +14,7 @@
     "displayList": [
         {
             "type": "ScriptNode",
-            "id": "27401aff-5ffb-4264-915c-fb568a7f66ab",
+            "id": "886866dc-af87-48ca-94e9-9414be796859",
             "label": "scriptnode_1"
         }
     ],
@@ -27,19 +27,19 @@
     },
     "prefabProperties": [
         {
-            "name": "key",
+            "name": "audioKey",
             "label": "Audio Key",
-            "tooltip": "The Audio key from the assets file.",
+            "tooltip": "The audio key from the assets file to play.",
             "defValue": "",
             "customDefinition": false,
             "type": {
-                "id": "audio-key"
+                "id": "asset-key"
             }
         },
         {
             "name": "loop",
             "label": "Loop Audio",
-            "tooltip": "Play audio on a loop.",
+            "tooltip": "Play audio in a loop.",
             "defValue": false,
             "customDefinition": false,
             "type": {

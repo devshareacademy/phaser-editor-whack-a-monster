@@ -1,0 +1,38 @@
+{
+    "id": "c7764538-5ba9-4185-b95f-3a92757cbf66",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "prefabId": "a747edf5-122c-40de-98d5-a770e107cfe0",
+            "id": "bce3250b-1796-411f-9b37-1c87581d1abe",
+            "unlock": [
+                "points",
+                "duration",
+                "textureConfig",
+                "animationKey"
+            ],
+            "label": "baseMonsterPrefab",
+            "points": 40,
+            "duration": 1500,
+            "textureConfig": "{\"key\":\"spritesheet\",\"frame\":\"Bat1.png\"}",
+            "animationKey": "idleBat"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

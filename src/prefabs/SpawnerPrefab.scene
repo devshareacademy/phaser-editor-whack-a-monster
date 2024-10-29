@@ -1,0 +1,78 @@
+{
+    "id": "45ead080-86b8-4424-b176-34bdd44c8ec4",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6a1ac399-6b55-44a5-95fb-2a013d2d8896",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "ef2bbd94-d6af-4e3e-bc97-f4d6e1a6736e",
+                    "label": "monsterSprite",
+                    "displayName": "Monster Sprite",
+                    "scope": "CLASS",
+                    "hitArea.shape": "RECTANGLE",
+                    "hitArea.width": 32,
+                    "hitArea.height": 32,
+                    "texture": {},
+                    "scaleX": 3,
+                    "scaleY": 3,
+                    "visible": false
+                },
+                {
+                    "type": "Sprite",
+                    "id": "63a3bb28-b118-4190-b44d-e48d81b364e4",
+                    "label": "explosionSprite",
+                    "displayName": "Explosion Sprite",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "smoke_fx",
+                        "frame": 77
+                    },
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "visible": false,
+                    "animationKey": "smoke"
+                },
+                {
+                    "prefabId": "a747edf5-122c-40de-98d5-a770e107cfe0",
+                    "id": "7c83599c-ffd3-4892-99e7-8d9e21f512e4",
+                    "label": "monster",
+                    "displayName": "Base Monster Script",
+                    "scope": "CLASS"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "isMonsterSpawned",
+            "label": "Is Monster Spawned",
+            "tooltip": "Flag to indicate if a monster is currently spawning.",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

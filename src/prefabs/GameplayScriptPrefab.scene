@@ -1,0 +1,129 @@
+{
+    "id": "258bf0a6-1cae-44a6-86bc-312797f40193",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ScriptNode",
+            "id": "6feb7532-008b-4cb9-a151-5d812cebf797",
+            "label": "scriptnode_1"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "uiLayer",
+            "label": "UI Layer",
+            "tooltip": "The layer that has our UI game objects",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.Layer"
+            }
+        },
+        {
+            "name": "titleTextGameObject",
+            "label": "Title Text Game Object",
+            "tooltip": "The title text game object.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.Text"
+            }
+        },
+        {
+            "name": "spawnerGroups",
+            "label": "Spawner Groups",
+            "tooltip": "The spawner groups for spawning monseters",
+            "defValue": "[]",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "SpawnerGroupPrefab[]"
+            }
+        },
+        {
+            "name": "monsters",
+            "label": "Monsters",
+            "tooltip": "The list of monsters that we can spawn",
+            "defValue": "[]",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "BaseMonsterPrefab[]"
+            }
+        },
+        {
+            "name": "scoreTextGameObject",
+            "label": "Score Text Game Object",
+            "tooltip": "The ui score text game object.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.Text"
+            }
+        },
+        {
+            "name": "gameOverTextGameObject",
+            "label": "Game Over Text Game Object",
+            "tooltip": "The game over text game object to display.",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.Text"
+            }
+        },
+        {
+            "name": "timerScript",
+            "label": "Timer Script",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "ScriptNode"
+            }
+        },
+        {
+            "name": "backgroundMusicScript",
+            "label": "Background Music Script",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "NodeScript"
+            }
+        },
+        {
+            "name": "monsterDestroyedAudioScript",
+            "label": "Monster Destroyed Audio Script",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "NodeScript"
+            }
+        }
+    ]
+}
