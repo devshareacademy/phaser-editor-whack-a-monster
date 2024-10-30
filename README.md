@@ -25,6 +25,7 @@ The assets used in this project can be found here:
 * https://free-game-assets.itch.io/parallax-halloween-2d-game-backgrounds
 * https://ismartal.itch.io/2d-animated-halloween-characters
 * https://bdragon1727.itch.io/free-smoke-fx-pixel-2
+* https://rexrainbow.github.io/phaser3-rex-notes/docs/site/webfontloader/
 
 ## Configuration
 
