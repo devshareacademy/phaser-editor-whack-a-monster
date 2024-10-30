@@ -1,11 +1,5 @@
-import { WebFontFile } from "./fileloaders/WebFontFile.js";
 import Level from "./scenes/Level.js";
 import Preload from "./scenes/Preload.js";
-
-// register "webfont" to the loader plugin: `this.load.webfont(key, config)`
-Phaser.Loader.LoaderPlugin.prototype.webfont = function (key, config) {
-	this.addFile(new WebFontFile(this, key, config));
-};
 
 window.addEventListener('load', function () {
 
@@ -28,12 +22,16 @@ window.addEventListener('load', function () {
 class Boot extends Phaser.Scene {
 
 	preload() {
-		
+		this.load.plugin({
+			type: 'plugin',
+			key: 'rexwebfontloaderplugin',
+			url: 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexwebfontloaderplugin.min.js',
+			start: true
+		});
 		this.load.pack("pack", "assets/preload-asset-pack.json");
 	}
 
 	create() {
-
 		this.scene.start("Preload");
 	}
 }

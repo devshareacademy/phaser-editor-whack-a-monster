@@ -18,7 +18,6 @@ export default class Preload extends Phaser.Scene {
 
 	/** @returns {void} */
 	editorPreload() {
-
 		this.load.pack("asset-pack", "assets/asset-pack.json");
 	}
 
@@ -65,10 +64,19 @@ export default class Preload extends Phaser.Scene {
 
 		this.editorPreload();
 
+		this.plugins.get('rexwebfontloaderplugin').addToScene(this);
+		this.load.rexWebFont({
+			"custom": {
+				"families": ["Nosifer", "Creepster"],
+				"urls": ["assets/fonts/fonts.css"]
+			}
+		});
+
 		const width =  this.progressBar.width;
 
-		this.load.webfont("Nosifer");
-		this.load.webfont("Creepster");
+
+		// this.load.webfont("Nosifer");
+		// this.load.webfont("Creepster");
 
 		this.load.on("progress", (progress) => {
 
