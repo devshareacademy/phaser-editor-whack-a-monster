@@ -66,14 +66,6 @@ export default class Preload extends Phaser.Scene {
 
 		const width =  this.progressBar.width;
 
-		this.plugins.get('rexwebfontloaderplugin').addToScene(this);
-		this.load.rexWebFont({
-			"custom": {
-				"families": ["Nosifer", "Creepster"],
-				"urls": ["assets/fonts/fonts.css"]
-			}
-		});
-
 		this.load.on("progress", (progress) => {
 
 			this.progressBar.width = progress * width;

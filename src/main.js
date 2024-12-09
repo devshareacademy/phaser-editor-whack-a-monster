@@ -23,12 +23,6 @@ class Boot extends Phaser.Scene {
 
 	preload() {
 		this.load.pack("pack", "assets/preload-asset-pack.json");
-		this.load.plugin({
-			type: 'plugin',
-			key: 'rexwebfontloaderplugin',
-			url: 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexwebfontloaderplugin.min.js',
-			start: true
-		});
 	}
 
 	create() {

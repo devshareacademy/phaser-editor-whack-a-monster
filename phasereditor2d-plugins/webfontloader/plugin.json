@@ -1,9 +1,0 @@
-{
-  "id": "webfontloader",
-  "styles": [],
-  "scripts": [
-    "lib/webfontloader-1.6.28.js",
-    "main.js"
-  ],
-  "priority": -1
-}

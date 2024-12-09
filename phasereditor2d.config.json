@@ -1,14 +1,4 @@
 {
-    "plugins": [
-        "phasereditor2d-plugins"
-    ],
-    "skip": [],
-    "custom": {
-        "webfontloader": {
-            "custom": {
-                "families": ["Nosifer", "Creepster"],
-                "urls": ["/editor/project/assets/fonts/fonts.css"]
-            }
-        }
-    }
+    "plugins": [],
+    "skip": []
 }
