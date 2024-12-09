@@ -45,12 +45,14 @@ export default class Level extends Phaser.Scene {
 		// titleText
 		const titleText = new MainTextPrefab(this, 640, 360);
 		titleText.text = "Whack\nA\nMonster";
+		titleText.setStyle({  });
 		titleTextLayer.add(titleText);
 
 		// gameOverText
 		const gameOverText = new MainTextPrefab(this, 640, 360);
 		gameOverText.visible = false;
 		gameOverText.text = "Game Over";
+		gameOverText.setStyle({  });
 		titleTextLayer.add(gameOverText);
 
 		// monsterSpawnerLayer
@@ -72,6 +74,7 @@ export default class Level extends Phaser.Scene {
 		// timerText
 		const timerText = new UiTextPrefab(this, 1144, 10);
 		timerText.text = "30";
+		timerText.setStyle({  });
 		uiLayer.add(timerText);
 
 		// timerScriptPrefab
@@ -80,6 +83,7 @@ export default class Level extends Phaser.Scene {
 		// scoreText
 		const scoreText = new UiTextPrefab(this, 10, 10);
 		scoreText.text = "0";
+		scoreText.setStyle({  });
 		uiLayer.add(scoreText);
 
 		// hourglass

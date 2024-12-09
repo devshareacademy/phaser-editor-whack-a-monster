@@ -19,6 +19,13 @@
                 "key": "background_music"
             },
             {
+                "url": "assets/fonts/Creepster-Regular.ttf",
+                "format": "truetype",
+                "descriptors": {},
+                "type": "font",
+                "key": "Creepster-Regular"
+            },
+            {
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
@@ -34,6 +41,13 @@
                 ],
                 "type": "audio",
                 "key": "impactSoft_heavy_000"
+            },
+            {
+                "url": "assets/fonts/Nosifer-Regular.ttf",
+                "format": "truetype",
+                "descriptors": {},
+                "type": "font",
+                "key": "Nosifer-Regular"
             },
             {
                 "url": "assets/images/smoke_fx.png",

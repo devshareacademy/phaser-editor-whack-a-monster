@@ -12,7 +12,7 @@ export default class UiTextPrefab extends Phaser.GameObjects.Text {
 		super(scene, x ?? 0, y ?? 0, "", {});
 
 		this.text = "Placeholder";
-		this.setStyle({ "fontFamily": "Creepster", "fontSize": "64px" });
+		this.setStyle({ "fontFamily": "Creepster-Regular", "fontSize": "64px" });
 
 		/* START-USER-CTR-CODE */
 		// Write your code here.

@@ -13,7 +13,7 @@ export default class MainTextPrefab extends Phaser.GameObjects.Text {
 
 		this.setOrigin(0.5, 0.5);
 		this.text = "Placeholder";
-		this.setStyle({ "align": "center", "fontFamily": "Nosifer", "fontSize": "128px" });
+		this.setStyle({ "align": "center", "fontFamily": "Nosifer-Regular", "fontSize": "128px" });
 
 		/* START-USER-CTR-CODE */
 		// Write your code here.
