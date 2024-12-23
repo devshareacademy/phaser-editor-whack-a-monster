@@ -4,7 +4,7 @@ A fun halloween themed whack-a-mole type game that was built using the Phaser Ed
 
 To learn how this project was built, you can follow along in a tutorial video on YouTube here:
 
-Coming soon...
+[<img src="https://i.ytimg.com/vi/BVCGpUjBsy4/hqdefault.jpg">](https://youtu.be/BVCGpUjBsy4 "Phaser Editor v4: Create a Monster Whack-a-Mole Style Game – Full Tutorial")
 
 ## Demo
 
